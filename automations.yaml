@@ -1,0 +1,13 @@
+- id: '1736265421477'
+  alias: Mode - Tech - SSL - Renew certificate
+  description: ''
+  triggers:
+  - trigger: time
+    at: 05:00:00
+  conditions: []
+  actions:
+  - action: hassio.addon_start
+    metadata: {}
+    data:
+      addon: core_letsencrypt
+  mode: single

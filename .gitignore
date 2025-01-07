@@ -1,0 +1,106 @@
+#### OS ####
+### Linux ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+
+#### Package Managers ####
+### Homebrew ###
+Brewfile.lock.json
+
+
+#### Editors ####
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.vscode-test
+.history/
+*.vsix
+.history
+.ionide
+
+### JetBrains ###
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+*.iws
+out/
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+local.properties
+
+
+#### General ####
+### Environment ###
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+#### Home Assistant ####
+
+*.csr
+*.crt
+*.db*
+*.key
+*.log*
+*.sqlite
+
+.cloud
+.storage
+
+deps
+secrets
+secrets.yaml
+tts
